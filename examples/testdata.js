@@ -2,98 +2,65 @@ var testdata = [
 	{
 	 "id" : 11,
 	 "childs": [
-	  {"weight": "1.0", "id": 21},
-	  {"weight": "1.0", "id": 22},
-	  {"weight": "1.0", "id": 23},
-	  {"weight": "1.0", "id": 31}],
-	"parents": []
+	  21,
+	  22,
+	  23,
+	  31]
 	},{
 	 "id" : 21,
 	 "childs": [
-	  {"weight": "1.0", "id": 31},
-	  {"weight": "1.0", "id": 32},
-	  {"weight": "1.0", "id": 71}],
-	 "parents": [
-	  {"weight": "1.0", "id": 11},
-	  {"weight": "1.0", "id": 12}]
+	  31,
+	  32,
+	  71]
 	},{
 	 "id" : 22,
 	 "childs": [
-	  {"weight": "1.0", "id": 31},
-	  {"weight": "1.0", "id": 32}],
-	 "parents": [
-	  {"weight": "1.0", "id": 11}]
+	  31,
+	  32]
 	},{
 	 "id" : 23,
 	 "childs": [
-	  {"weight": "1.0", "id": 31},
-	  {"weight": "1.0", "id": 32}],
-	 "parents": [
-	  {"weight": "1.0", "id": 11}]
+	  31,
+	  32]
 	},{
 	 "id" : 31,
 	 "childs": [
-	  {"weight": "1.0", "id": 41}],
-	 "parents": [
-	  {"weight": "1.0", "id": 11}]
+	  41]
 	},{
 	 "id" : 32,
 	 "childs": [
-	  {"weight": "1.0", "id": 41},
-	  {"weight": "1.0", "id": 42},
-	  {"weight": "1.0", "id": 43}],
-	 "parents": [
-	  {"weight": "1.0", "id": 21},
-	  {"weight": "1.0", "id": 22},
-	  {"weight": "1.0", "id": 23}]
+	  41,
+	  42,
+	  43]
 	},{
 	 "id" : 41,
-	 "childs": [],
-	 "parents": [
-	  {"weight": "1.0", "id": 31},
-	  {"weight": "1.0", "id": 32}]
+	 "childs": []
 	},{
 	 "id" : 42,
-	 "childs": [],
-	 "parents": [
-	  {"weight": "1.0", "id": 32}]
+	 "childs": []
 	},{
 	 "id" : 51,
 	 "childs": [
-	  {"weight": "1.0", "id": 71},
-	  {"weight": "1.0", "id": 61}],
-	 "parents": [
-	  {"weight": "1.0", "id": 32},
-	  {"weight": "1.0", "id": 43}]
+	  71,
+	  61]
 	},{
 	 "id" : 71,
-	 "childs": [],
-	 "parents": [
-	  {"weight": "1.0", "id": 21},
-	  {"weight": "1.0", "id": 51},
-	  {"weight": "1.0", "id": 61}]
+	 "childs": []
 	},{
 	 "id" : 43,
 	 "childs": [
-	  {"weight": "1.0", "id": 51}],
-	 "parents": [
-	  {"weight": "1.0", "id": 32}]
+	  51]
 	},{
 	 "id" : 12,
 	 "childs": [
-	  {"weight": "1.0", "id": 21}],
-	 "parents": [
-	  {"weight": "1.0", "id": 1}]
+	  21]
 	},{
 	 "id" : 1,
 	 "childs": [
-	  {"weight": "1.0", "id": 12}],
-	 "parents": []
+	  12]
 	},{
 	 "id" : 61,
 	 "childs": [
-	  {"weight": "1.0", "id": 71}],
-	 "parents": [
-	  {"weight": "1.0", "id": 51}]
+	  71]
 	}
 ];
